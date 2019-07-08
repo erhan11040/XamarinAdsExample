@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp.iOS\\AdMobApp.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp.iOS\\AdMobApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp.iOS\\AdMobApp.iOS.csproj",
+        "projectName": "AdMobApp.iOS",
+        "projectPath": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp.iOS\\AdMobApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\erhan.okumus\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erhan.okumus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\AdMobApp.csproj": {
+                "projectPath": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\AdMobApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "MarcTron.Admob": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\AdMobApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\AdMobApp.csproj",
+        "projectName": "AdMobApp",
+        "projectPath": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\AdMobApp.csproj",
+        "packagesPath": "C:\\Users\\erhan.okumus\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AdMobApp\\AdMobApp\\AdMobApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\erhan.okumus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MarcTron.Admob": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

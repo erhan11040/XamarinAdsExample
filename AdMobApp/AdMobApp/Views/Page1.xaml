@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:controls="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+             
+             x:Class="AdMobApp.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:MTAdView  AdsId="ca-app-pub-1926560585317979/2484438867" x:Name="myAds2" PersonalizedAds="false"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
